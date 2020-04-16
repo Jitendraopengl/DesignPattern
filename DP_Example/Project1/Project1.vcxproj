@@ -138,7 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="abstractFactoryPattern .cpp" />
+    <ClCompile Include="AdapterPattern.cpp" />
+    <ClCompile Include="BuilderPattern.cpp" />
+    <ClCompile Include="chainOfResponsibility .cpp" />
+    <ClCompile Include="commandPattern.cpp" />
     <ClCompile Include="FactoryPattern.cpp" />
+    <ClCompile Include="observerPattern.cpp" />
+    <ClCompile Include="PrototypePattern.cpp" />
+    <ClCompile Include="SingletonPattern.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
