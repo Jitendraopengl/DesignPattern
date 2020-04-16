@@ -1,0 +1,8 @@
+If you do not want to Expose the creation logic of your application you can you factory and Abstract factory.
+we create can object with out Exposing creation logic to the client and Refer to newly created objct using common interface
+so can say that
+
+A “Factory” class has a (usually static) function returning a pointer to a base class .
+The actual object type depend on the arguments and/or other informations the function can obtain. 
+The client does not depend on the derived classes. 
+The client need not knowing all the informations needed to create the objects. 
